@@ -93,12 +93,12 @@ export const DATA = {
   // Projects
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
+      title: "Full Stack Application",
+      href: "https://github.com",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Full Stack Application",
       technologies: [
         "Next.js",
         "Typescript",
@@ -123,15 +123,15 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "CodeClock",
+      href: "https://codeclock.vercel.app",
+      dates: "July 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "A time-tracking application that helps users monitor and manage their coding sessions and productivity",
       technologies: [
         "Next.js",
         "Typescript",
@@ -145,18 +145,18 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://codeclock.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Github",
-          href: "https://github.com/izzatkarimov/chatcollect",
+          href: "https://github.com/izzatkarimov/codeclock",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
   ],
 } as const;
