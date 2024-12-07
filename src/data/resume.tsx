@@ -121,7 +121,73 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/placeholder.png",
+      video:
+        "",
+    },
+    {
+      title: "Chat Application",
+      href: "https://github.com",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "Full Stack Application",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chatcollect.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/izzatkarimov/chatcollect",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/placeholder.png",
+      video:
+        "",
+    },
+    {
+      title: "Google Drive Clone",
+      href: "https://github.com",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "Full Stack Application",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chatcollect.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/izzatkarimov/chatcollect",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/placeholder.png",
       video:
         "",
     },
