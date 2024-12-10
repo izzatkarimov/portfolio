@@ -61,7 +61,7 @@ export default function Page() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 6}>
           <p className="text-muted-foreground">Download my Resume</p>
-          <Link href="/path/to/your/resume.pdf">
+          <Link href="https://drive.google.com/file/d/1WRvbEQ24QSYPPWb7ti5yNwcm2cqEhy5i/view?usp=sharing">
             <Button variant="default" className="mt-2">
               Download Resume
             </Button>

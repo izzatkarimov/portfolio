@@ -22,6 +22,7 @@ export const DATA = {
     "Spring Boot",
     "Hibernate",
     "PostgreSQL",
+    "MySQL",
     "Docker",
     "AWS",
   ],
@@ -93,101 +94,80 @@ export const DATA = {
   // Projects
   projects: [
     {
-      title: "Full Stack Application",
-      href: "https://github.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "StudentVault",
+      href: "https://github.com/izzatkarimov/student-vault",
+      dates: "November 2024",
       active: true,
       description:
-        "Full Stack Application",
+        "A student management portal  for managing students and departments in a student management system",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Spring Boot",
+        "React.js",
+        "MySQL",
+        "Postman",
+        "AWS"
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "http://studentvault.s3-website.eu-central-1.amazonaws.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Github",
-          href: "https://github.com/izzatkarimov/chatcollect",
+          href: "https://github.com/izzatkarimov/student-vault",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/placeholder.png",
+      image: "/studentvault.png",
       video:
         "",
     },
     {
-      title: "Chat Application",
-      href: "https://github.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Blog RESTful API",
+      href: "https://github.com/izzatkarimov/blog-rest-api",
+      dates: "Septemeber 2024",
       active: true,
       description:
-        "Full Stack Application",
+        "A RESTful API for managing blog articles with CRUD operations",
       technologies: [
-        "Next.js",
-        "Typescript",
+        "Spring Boot",
+        "Hibernate",
         "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Postman"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Github",
-          href: "https://github.com/izzatkarimov/chatcollect",
+          href: "https://github.com/izzatkarimov/blog-rest-api",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/placeholder.png",
+      image: "/blog-rest-api.png",
       video:
         "",
     },
     {
-      title: "Google Drive Clone",
-      href: "https://github.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "E-Commerce Website",
+      href: "https://github.com/izzatkarimov/e-commerce",
+      dates: "Jan 2024",
       active: true,
       description:
-        "Full Stack Application",
+        "E-Commerce Website with full CRUD funtionality and PayPal integration",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Django",
+        "JavaScript",
+        "Bootstrap",
+        "PayPal"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Github",
-          href: "https://github.com/izzatkarimov/chatcollect",
+          href: "https://github.com/izzatkarimov/e-commerce",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/placeholder.png",
+      image: "/e-commerce.png",
       video:
         "",
     },
@@ -201,12 +181,8 @@ export const DATA = {
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Firebase",
+        "TailwindCSS"
       ],
       links: [
         {
