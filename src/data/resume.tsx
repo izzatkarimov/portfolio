@@ -94,6 +94,34 @@ export const DATA = {
   // Projects
   projects: [
     {
+      title: "PyFrameKit",
+      href: "https://github.com/izzatkarimov/pyframekit",
+      dates: "January 2025",
+      active: true,
+      description:
+        "PyFrameKit is a lightweight Python web framework built for learning. It's WSGI-compliant and can be used with servers like Gunicorn.",
+      technologies: [
+        "Python",
+        "WSGI",
+        "Jinja2"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://pypi.org/project/pyframekit/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/izzatkarimov/pyframekit",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/PyFrameKit.png",
+      video:
+        "",
+    },
+    {
       title: "StudentVault",
       href: "https://github.com/izzatkarimov/student-vault",
       dates: "November 2024",
@@ -120,30 +148,6 @@ export const DATA = {
         },
       ],
       image: "/studentvault.png",
-      video:
-        "",
-    },
-    {
-      title: "Blog RESTful API",
-      href: "https://github.com/izzatkarimov/blog-rest-api",
-      dates: "Septemeber 2024",
-      active: true,
-      description:
-        "A RESTful API for managing blog articles with CRUD operations",
-      technologies: [
-        "Spring Boot",
-        "Hibernate",
-        "PostgreSQL",
-        "Postman"
-      ],
-      links: [
-        {
-          type: "Github",
-          href: "https://github.com/izzatkarimov/blog-rest-api",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/blog-rest-api.png",
       video:
         "",
     },
